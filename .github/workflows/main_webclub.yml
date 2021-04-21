@@ -8,7 +8,8 @@ on:
     branches:
       - main
   workflow_dispatch:
-
+env:
+  APP_PATH: './src/Web'
 jobs:
   build:
     runs-on: windows-latest
